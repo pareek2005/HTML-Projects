@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: blue;
+    border: 5px dotted red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body {
+    background-image: url("../Images/Old-Newspapers.jpg");
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid green;
+}
+.centering {
+    text-align: center;
+}
+li.fancy:hover{
+    color: green;
+    font-weight: bold;
+}
+.floatleft {
+    float: left;
+    margin:0 1rem 1rem 0;
+}
+.floatright {
+    float: right;
+    margin: 0 0 0 1rem;
+}
+img:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.sizing {
+    width: 500px;
+    height: 350px;
+}
